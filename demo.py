@@ -4,8 +4,8 @@ import speech_data
 import tensorflow as tf
 
 learning_rate = 0.0001
-training_iters = 300000  # steps
-batch_size = 64
+training_iters = 400000  # steps
+batch_size = 128
 
 width = 20  # mfcc features
 height = 80  # (max) length of utterance
